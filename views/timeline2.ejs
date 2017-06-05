@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>instagram3</title>
+      <link rel="stylesheet" href="/stylesheets/timeline2css.css">
+      <script src="/javascripts/timeline2js.js"></script>
+  </head>
+  <body style="background-color:#fafafa;">
+    <div class="big">
+      <div class="first">
+        <div class="logo1">
+          <img class="logo11"src="/images/logo1.png">
+          <input class="text_text" type="text" name="search" placeholder="검색"></input>
+          <img class="logo13"src="/images/logo3.jpg">
+        </div>
+      </div>
+      <div class="second">
+        <div class="one">
+          <div class="oneone"><img class="picture1" onclick="modalopen1()"src="/images/기리보이1.jpg"></img></div>
+          <div class="modal2">
+           <div class="modal-content1">
+             <span class="close">&times;</span>
+            <button style="font-size:15px; text-align:center;
+               background-color: #fafafa; color:black; border:none; height:70px; width : 600px;border: 1px solid skyblue" type="button">로그아웃</button>
+             <button id="myBtn10"  style="font-size:15px; text-align:center;
+             background-color: #fafafa; color:black; border-bottom:1px solid gray; height:70px; width : 600px; " type="button">프로필편집</button>
+             <button id="myBtn20"style="font-size:15px; text-align:center;
+             background-color: #fafafa; color:black; border-bottom:1px solid gray; height:70px; width : 600px; " type="button">사진올리기</button>
+             <button id ="myBtn30" style="font-size:15px; text-align:center;
+             background-color: #fafafa; color:black; border-bottom:1px solid gray; height:70px; width : 600px; " type="button">이미지저장</button>
+             <button id ="myBtn40" style="font-size:15px; text-align:center;
+             background-color: #fafafa; color:black; border-bottom:1px solid gray; height:70px; width : 600px; " type="button">취소</button>
+          </div>
+      </div>
+
+          <div class="topone">
+            <p id="paragra1">HanJinWoo</p>
+            <button id="profile" type="button"><b>프로필편집</b></button>
+              <button class ="myBtn"type="button" onclick="modalopen2()">***</button>
+              <div class="modal">
+          <!-- Modal content -->
+               <div class="modal-content">
+                 <span class="close">&times;</span>
+                  <button style="font-size:15px; text-align:center;
+                   background-color: #fafafa; color:black; border:none; height:70px; width : 600px;border: 1px solid skyblue" type="button">로그아웃</button>
+                 <button id ="myBtn3" style="font-size:15px; text-align:center;
+                 background-color: #fafafa; color:black; border:none; height:70px; width : 600px; " type="button">취소</button>
+              </div>
+          </div>
+        </div>
+
+        <div class="bottonone">
+          <p id="ptag">게시물<b>80</b>개&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp팔로워<b>167</b>명&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp필로우<b>167</b>명</p>
+          <p id="ptag"><b>한진우</b></p>
+        </div>
+        </div>
+        <div class="two">
+          <img class="jpg1" src="/images/기리보이1.jpg" onclick="modalopen3()">
+        </div>
+
+        <div class="modal_10">
+         <div class="modal-content10">
+           <div class="first_picture">
+           <div class="modal_picture"></div>
+         </div>
+         <div class="second_picture">
+           <div class="modal_top">
+             <div id="giri"><img id="giriboy"src="/images/기리보이1.jpg"width="30" height="30"></img></div>
+           <div style="margin:10px; float:left;font-size:10px;"><b>뭐를해야하죠</b><br><b>압구정 기리보이</b></div>
+         </div>
+           <div class="modal_mid">gr_boy #기리보이</div>
+           <div class="modal_bottom"><button class="heart">♡</button><input class="modal_text"type="text" placeholder="댓글"><button style="margin-top:15px;margin-left:20px;background-color:white;border-style:none;">***</button></input></div>
+         </div>
+        </div>
+    </div>
+      </div>
+  </body>
+</html>

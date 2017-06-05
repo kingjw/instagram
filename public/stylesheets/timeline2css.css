@@ -1,0 +1,288 @@
+.modal {
+    display:none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 0; /* Sit on top */
+    padding-top: 150px; /* Locatfixedon of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+.modal2
+{
+  display:none;
+  position:fixed;
+  z-index:0;
+  padding:100px 30px;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.5);
+}
+.modal_10
+{
+  display:none;
+  position:fixed;
+  z-index:0;
+  padding-top:150px;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+    background-color: #fafafafa;
+    /*margin-left: : auto;
+    margin-top:10px
+    padding: 20px;*/
+    margin:auto;
+    border:none;
+    width: 600px;
+}
+.modal-content1
+{
+  background-color:#fafafafa;
+  margin:auto;
+  border:none;
+  width:600px;
+  height:900px;
+}
+.modal-content10
+{
+  background-color:white;
+  margin:auto;
+  border:none;
+  width:600px;
+  height:300px;
+  display: inline-flex;
+}
+.first_picture
+{
+  width:300px;
+  height:300px;
+  background-image:url("/images/기리보이1.jpg");
+  background-size: 300px 300px;
+}
+/*.modal_picture
+{
+  background-image:url("기리보이1.jpg");
+  background-size: 300px 300px;
+}*/
+.second_picture
+{
+  width:300px;
+  height:300px;
+}
+.modal_top
+{
+  background-color: #fafafafa;
+  width: 300px;
+  height: 50px;
+  float:right;
+}
+.modal_mid
+{
+  background-color: white;
+  width:300px;
+  height:200px;
+  float:right;
+  border-top-style: outset;
+}
+.modal_bottom
+{
+  border-top-style: outset;
+  background-color:#fafafafa;
+  width: 300px;
+  height:50px;
+  float:right;
+}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float:right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.first{
+  height:65px;
+  background-color:white;
+}
+.big{
+  text-align:center;
+  margin-bottom: 100px;
+  background-color: #fafafa;
+}
+.logo11{
+  margin-left:100px;
+  height:65px;
+  float:left;
+}
+.logo12{
+  height:65px;
+}
+.logo13{
+  margin-right:100px;
+  height:65px;
+  float:right;
+}
+.second{
+  margin-left:220px;
+  margin-top: 50px;
+  background-color: red;
+  width:800px;
+  height:800px;
+}
+.one{
+  background-color:#fafafa;
+  width : 800px;
+  height : 180px;
+}
+.oneone{
+  width :200px;
+  height : 150px;
+  margin-top: 15px;
+  float:left;
+  margin-left:50px;
+  padding:0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.picture1{
+  width :200px;
+  height : 150px;
+  /*margin-top: 15px;*/
+  float:left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  /*margin-left:50px;*/
+}
+.topone{
+  width:600px;
+  height: 65px;
+  background-color: #fafafa;
+  margin-left: 270px;
+  margin-top: :10px;
+}
+#paragra1
+{
+  font-size:25px;
+  float:left;
+  margin-left: 30px;
+  padding:1px;
+  margin-top:10px;
+}
+#profile{
+  float:left;
+  padding:3px;
+  font-size:15px;
+  text-align:center;
+  background-color: #fafafa;
+  color:black;
+  border:1px solid black;
+  height:25px;
+  width : 100px;
+  margin : 20px;
+}
+.myBtn{
+  padding:3px;
+  font-size:15px;
+  text-align:center;
+  background-color: #fafafa;
+  color:black;
+  border:none;
+  height:20px;
+  width : 50px;
+  margin-top: 25px;
+  float:left;
+}
+.bottonone{
+  width:600px;
+  height:80px;
+  margin-left: 270px;
+  background-color: #fafafa;
+}
+#ptag{
+  font-size: 15px;
+  margin-left: 20px;
+  text-align: left;
+}
+.two{
+  width:800px;
+  height:620px;
+  background-color: #fafafa;
+}
+.jpg1{
+  width:220px;
+  height: 240px;
+  margin:20px;
+  float:left;
+}
+.repeatarea
+{
+  width:220px;
+  height: 240px;
+  margin:20px;
+  background-color: red;
+  float:left;
+}
+.repeatjpg{
+  width:220px;
+  height: 240px;
+  /*margin:10px;*/
+}
+.text_text
+{
+  width:200px;
+  margin-top:25px;
+  height : 20px;
+  background-color:#fafafa;
+  text-align:center;
+}
+.text_text:focus
+{
+  width:600px;
+  border:1px solid skyblue;
+  background-color:white;
+  text-align:left;
+  padding:4px;
+  transition: width 1s;
+}
+.heart
+{
+  border:none;
+  outline:0;
+  background-color: white;
+  margin:10px;
+  float:left;
+}
+.modal_text
+{
+  width:180px;
+  height:30px;
+  margin-top:8px;
+  float:left;
+}
+#giri{
+
+}
+#giriboy
+{
+  float: left;
+  margin:10px;
+}

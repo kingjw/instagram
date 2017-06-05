@@ -1,0 +1,203 @@
+.first{
+  height:65px;
+  background-color:white;
+}
+.big{
+  text-align:center;
+  height :100%;
+  margin-bottom: 100px;
+  background-color: #fafafa;
+}
+.logo11{
+  margin-left:100px;
+  height:65px;
+  float:left;
+}
+.search
+{
+  width:200px;
+  margin-top:25px;
+  height : 23px;
+  background-color:#fafafa;
+  text-align:center;
+
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}
+.search:focus
+{
+  width:500px;
+  border:1px solid skyblue;
+  background-color:white;
+  text-align:left;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding:4px;
+  transition: width 1s;
+}
+.logo13{
+  margin-right:100px;
+  height:65px;
+  float:right;
+}
+#second{
+  margin-left:350px;
+  margin-top: 50px;
+  /*margin:auto;*/
+  background-color: #fafafafa;
+  width:600px;
+  height:900px;
+  margin-bottom: 20px;
+
+  /*overflow:hidden;*/
+}
+#second:hover{
+  transform: scale(1.05,1.05);
+  box-shadow: 5px 5px 40px black;
+}
+.name{
+  width:600px;
+  height:60px;
+  background-color:white;
+  /*margin-top: 20px;*/
+}
+.name2{
+  width:300px;
+  height:60px;
+  float:left;
+}
+.picture{
+  width:600px;
+  height:600px;
+}
+.picture2{
+  width:600px;
+  height:170px;
+  background-color:white;
+  overflow: hidden;
+}
+.picture3{
+  width:300px;
+  height:120px;
+  float:left;
+}
+.last
+{
+  width:600px;
+  height:70px;
+  background-color:white;
+  margin-bottom: 20px;
+}
+#myBtn{
+  float:right;
+  margin-right: 20px;
+}
+.p1{
+  text-align:left;
+}
+.p2{
+  text-align:left;
+}
+.p3{
+  text-align:left;
+}
+#modal{
+  width:600px;
+  height:210px;
+  background-color: black;
+  margin : 0;
+  padding:0;
+}
+#modal1{
+  width :600px;
+  height :70px;
+}
+#modal2{
+  width:600px;
+  height:70px;
+  margin : 0;
+  padding:0;
+}
+.modal {
+    display:none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 0; /* Sit on top */
+    padding-top: 150px; /* Locatfixedon of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+    /*margin-left: : auto;
+    margin-top:10px
+    padding: 20px;*/
+    margin:auto;
+    border:none;
+    width: 600px;
+    background-color: #fafafafa;
+  }
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float:right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.firstone{
+  margin-left:350px;
+  margin-top: 50px;
+  background-color: yellow;
+  width:600px;
+  height:900px;
+}
+.secondone{
+  width:600px;
+  height:60px;
+  background-color:white;
+}
+.anothersecondone
+{
+  width:300px;
+  height:60px;
+  background-color: white;
+}
+.firstjpg
+{
+  width:300px;
+  height:60px;
+  float:left;
+}
+.secondjpg
+{
+  width:600px;
+  height:600px;
+}
+#only
+{
+  margin-top:10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  width:400px;
+  padding:5px;
+}
+.heart
+{
+  border:none;
+  background-color:inherit;
+  font-size:20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  outline: 0;
+}
